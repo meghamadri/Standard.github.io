@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Standardform</title>
+    <style>
+.one{
+    width: 30%;
+    background-color: aqua;
+     border-radius: 30px;
+     margin-left: 450px;
+     border: 3px ridge red;
+}
+.two{
+    color:black;
+    font-size: 30px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+}
+.three{
+    color:blueviolet;
+    font-family: cursive;
+}
+#four:hover{
+    background-color: blueviolet;
+    
+}
+    </style>
+</head>
+<body>
+
+    <form action="">
+        <fieldset class="one">
+            <legend class="two">Personal Details</legend>
+
+        <label for="fname"  class="three">First Name</label>
+        <input  type="text" id="fname" name="fname">
+        <br><br>
+        <label for="mname" class="three">Midlle Name</label>
+        <input  type="text" id="mname" name="mname">
+        <br><br>
+
+        <label for="lname" class="three">Last Name</label>
+        <input  type="text" id="lname" name="lname">
+        <br><br>
+
+        <label for="email" class="three">Email</label>
+        <input  type="email" id="email" name="email">
+        <br><br>
+
+        <label for="dob" class="three">DOB</label>
+        <input  type="date" id="dob" name="dob">
+        </fieldset>
+
+        <fieldset class="one">
+            <legend class="two">Educational Details</legend>
+            <label for="dep" class="three">Department</label>
+            <br><br>
+            <input  type="radio" id="cs" name="dep">
+            <label for="cs" >CS</label>
+            
+    
+            <input  type="radio" id="ece" name="dep">
+            <label for="ece" >ECE</label>
+    
+            <input  type="radio" id="civil" name="dep">
+            <label for="civil" >CIVIL</label>
+            <br><br>
+    
+            <label for="yog" class="three">YOG</label>
+            <input list="yog" id="year" name="yop" class="three">
+            <datalist id="yog">
+                <option>2018</option>
+                <option>2019</option>
+                <option>2020</option>
+                <option>2021</option>
+                <option>2022</option>
+                <option>2023</option>
+            </datalist>
+    
+            <br><br>
+    
+                <label for="sk" class="three">Skills</label>
+                <br><br>
+    
+                
+                <input  type="checkbox" id="html" name="sk">
+            <label for="html">HTML</label>
+            <br><br>
+    
+            <input  type="checkbox" id="css" name="sk">
+            <label for="css">CSS</label>
+            <br><br>
+
+    
+            <input  type="checkbox" id="js" name="skills">
+            <label for="js">JAVASCRIPT</label>
+            <br><br>
+
+
+
+
+        </fieldset>
+        <br><br>
+        <input type="submit" id="four" style="margin-left: 465px; ">
+
+       
+
+    </form>
+    
+</body>
+</html>
+    
